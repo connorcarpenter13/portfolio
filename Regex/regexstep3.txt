@@ -1,4 +1,0 @@
- 1. I replaced ^(.+)\n\n with <title>\1</title>\n\n for the title
- 2. I replaced ^(CHAPTER\s+[IVXLCDM]+.*)\n\n with <chapter>\1</chapter>\n\n for the chpaters
- 3. I replaced (^.+(?:\n.+)*)\n\n with <p>\1</p>\n\n for the paragraphs
- 4. I replaced "([^"]+)" with <quote>\1</quote> for the quotes
