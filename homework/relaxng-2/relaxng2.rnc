@@ -1,0 +1,17 @@
+start = root
+root = element root {food, book, location, chef, years, year, step, ingredient, amountElem, review, suggestion}
+food = element food {type}
+type = attribute type {"desset" | "recipe"}
+book = element book {type}
+location = element location {text}
+chef = element chef {text}
+years = element years {text}
+year = element year {text}
+step = element step {num}
+num = attribute num {"xsd:integer"}
+ingredient = element ingredient {amountAttr}
+amountAttr = attribute amount {"xsd:integer"}
+amountElem = element amount {text}
+review = element review {text}
+suggestion = element suggestion {text}
+
