@@ -1,0 +1,7 @@
+start = breakfast_menu
+breakfast_menu = element breakfast_menu {food}
+food = element food {name, price, description, calories}
+name = element name {text}
+price = element price {text}
+description = element description {text}
+calories = element calories {text}
