@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Behrend Calendar Sheets</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Connor Carpenter</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Series of calendar sheets from the year 1909 in which Mary Behrend, who called herself Molly, drew pictures and wrote notes to her husband Ernst Behrend. .</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="sheet">
+            <head>30 January 1909</head>
+            <p>Sunny day with small flower drawing.</p>
+         </div>
+         
+         <div type="sheet">
+            <head>16 February 1909</head>
+            <p>Noted a visit from friends and a drawing of a bird.</p>
+         </div>
+         
+         <div type="sheet">
+            <head>8 March 1909</head>
+            <p>Snowy weather, drawing of a house and trees.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
